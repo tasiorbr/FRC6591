@@ -25,8 +25,8 @@ public class Robot extends IterativeRobot {
 	public static SpeedController driveTrainLeftRearMotor;
 	public static SpeedController driveTrainRightFrontMotor;
 	public static SpeedController driveTrainRightRearMotor;
-	
-	//Defining Timers
+
+	// Defining Timers
 	public static Timer	switchTimer = new Timer();
 	public static Timer scaleTimer = new Timer();
 	public static Timer timer = new Timer();
@@ -104,8 +104,3 @@ public class Robot extends IterativeRobot {
 	public void testPeriodic() {	
 	}
 }
-
-//driveTrainLeftFrontMotor.set(leftStickVal);
-//driveTrainLeftRearMotor.set(leftStickVal);
-//driveTrainRightFrontMotor.set(rightStickVal);
-//driveTrainRightRearMotor.set(rightStickVal);
